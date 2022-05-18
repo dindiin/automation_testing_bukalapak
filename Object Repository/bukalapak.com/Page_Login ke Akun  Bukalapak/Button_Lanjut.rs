@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Lanjut</name>
+   <tag></tag>
+   <elementGuidId>feced876-6748-4619-b832-1c6695e2dabe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.bl-text.bl-text--body-default.bl-text--semi-bold.bl-text--inverse</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='submit_button']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>35879f58-6d69-4868-bcf0-14b356dc2995</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bl-text bl-text--body-default bl-text--semi-bold bl-text--inverse</value>
+      <webElementGuid>92f619bb-87b3-4636-87bb-35fea1841b55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lanjut</value>
+      <webElementGuid>08686178-ad4e-4d58-9252-8d55745a1ec9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;submit_button&quot;)/span[@class=&quot;bl-text bl-text--body-default bl-text--semi-bold bl-text--inverse&quot;]</value>
+      <webElementGuid>e70620b0-aa19-444f-99ce-1c8c42fb417e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='submit_button']/span</value>
+      <webElementGuid>89f23150-64df-4687-8374-c97578fb803b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor handphone atau email'])[1]/following::span[1]</value>
+      <webElementGuid>aa0163df-ad9d-4e5c-bba8-d9beef9ebe00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facebook'])[1]/preceding::span[1]</value>
+      <webElementGuid>e7a92ec9-1d13-4b63-9eeb-4c00780d1622</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Google'])[1]/preceding::span[3]</value>
+      <webElementGuid>9b197b94-c84a-4289-9a6a-5cf0e01bcc53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Lanjut']/parent::*</value>
+      <webElementGuid>aefab1c8-8818-4861-8178-3e263a425e86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>9593ac91-478f-4ea6-a34d-456b1cfd1185</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Lanjut' or . = 'Lanjut')]</value>
+      <webElementGuid>8232e24c-b403-4d41-9123-a8117bfb51f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
