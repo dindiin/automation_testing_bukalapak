@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Test,Chrome 101.0.4951.67,,,2022-05-18 10:55:40,2022-05-18 10:59:42,4m - 1.413s,PASSED
+,,,,,,,
+Test Cases/bukalapak.com/Login_Valid,Chrome 101.0.4951.67,,,2022-05-18 10:55:41,2022-05-18 10:56:20,38.988s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-05-18 10:55:42,2022-05-18 10:55:47,4.686s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/"")",Chrome 101.0.4951.67,,,2022-05-18 10:55:47,2022-05-18 10:56:03,16.365s,PASSED
+maximizeWindow(),Chrome 101.0.4951.67,,,2022-05-18 10:56:03,2022-05-18 10:56:04,0.616s,PASSED
+"click(findTestObject(""Object Repository/bukalapak.com/Menu_Login""))",Chrome 101.0.4951.67,,,2022-05-18 10:56:04,2022-05-18 10:56:08,4.572s,PASSED
+"setText(findTestObject(""Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email""), ""find.project7@gmail.com"")",Chrome 101.0.4951.67,,,2022-05-18 10:56:08,2022-05-18 10:56:11,2.562s,PASSED
+"click(findTestObject(""Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Lanjut""))",Chrome 101.0.4951.67,,,2022-05-18 10:56:11,2022-05-18 10:56:12,0.787s,PASSED
+"click(findTestObject(""Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/div_password""))",Chrome 101.0.4951.67,,,2022-05-18 10:56:12,2022-05-18 10:56:12,0.666s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Password""), ""xvClebNTj3S16cmfaeveIw=="")",Chrome 101.0.4951.67,,,2022-05-18 10:56:12,2022-05-18 10:56:13,0.792s,PASSED
+"click(findTestObject(""Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Login""))",Chrome 101.0.4951.67,,,2022-05-18 10:56:13,2022-05-18 10:56:14,0.535s,PASSED
+takeScreenshot(),Chrome 101.0.4951.67,,,2022-05-18 10:56:14,2022-05-18 10:56:20,6.370s,PASSED
+,,,,,,,
+Test Cases/bukalapak.com/Login_Email_Invalid,Chrome 101.0.4951.67,,,2022-05-18 10:56:20,2022-05-18 10:56:46,25.567s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-05-18 10:56:21,2022-05-18 10:56:25,4.152s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/"")",Chrome 101.0.4951.67,,,2022-05-18 10:56:25,2022-05-18 10:56:39,13.391s,PASSED
+maximizeWindow(),Chrome 101.0.4951.67,,,2022-05-18 10:56:39,2022-05-18 10:56:39,0.262s,PASSED
+"click(findTestObject(""bukalapak.com/Menu_Login""))",Chrome 101.0.4951.67,,,2022-05-18 10:56:39,2022-05-18 10:56:42,3.155s,PASSED
+"setText(findTestObject(""bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email""), ""email"")",Chrome 101.0.4951.67,,,2022-05-18 10:56:42,2022-05-18 10:56:44,1.648s,PASSED
+"click(findTestObject(""bukalapak.com/Page_Login ke Akun  Bukalapak/button_Lanjut""))",Chrome 101.0.4951.67,,,2022-05-18 10:56:44,2022-05-18 10:56:44,0.551s,PASSED
+"verifyElementText(findTestObject(""bukalapak.com/Notifikasi_Login/p_User tidak ditemukan""), ""User tidak ditemukan"")",Chrome 101.0.4951.67,,,2022-05-18 10:56:44,2022-05-18 10:56:45,0.713s,PASSED
+takeScreenshot(),Chrome 101.0.4951.67,,,2022-05-18 10:56:45,2022-05-18 10:56:46,0.592s,PASSED
+,,,,,,,
+Test Cases/bukalapak.com/Login_Email_NULL,Chrome 101.0.4951.67,,,2022-05-18 10:58:13,2022-05-18 10:58:41,28.110s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-05-18 10:58:13,2022-05-18 10:58:15,2.559s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/"")",Chrome 101.0.4951.67,,,2022-05-18 10:58:15,2022-05-18 10:58:35,19.402s,PASSED
+maximizeWindow(),Chrome 101.0.4951.67,,,2022-05-18 10:58:35,2022-05-18 10:58:35,0.174s,PASSED
+"click(findTestObject(""bukalapak.com/Menu_Login""))",Chrome 101.0.4951.67,,,2022-05-18 10:58:35,2022-05-18 10:58:38,2.727s,PASSED
+"setText(findTestObject(""bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email""), """")",Chrome 101.0.4951.67,,,2022-05-18 10:58:38,2022-05-18 10:58:39,1.732s,PASSED
+"click(findTestObject(""bukalapak.com/Page_Login ke Akun  Bukalapak/button_Lanjut""))",Chrome 101.0.4951.67,,,2022-05-18 10:58:39,2022-05-18 10:58:40,0.631s,PASSED
+"verifyElementText(findTestObject(""bukalapak.com/Notifikasi_Login/p_Form harus diisi dulu ya""), ""Form harus diisi dulu ya"")",Chrome 101.0.4951.67,,,2022-05-18 10:58:40,2022-05-18 10:58:40,0.429s,PASSED
+takeScreenshot(),Chrome 101.0.4951.67,,,2022-05-18 10:58:40,2022-05-18 10:58:41,0.420s,PASSED
+,,,,,,,
+Test Cases/bukalapak.com/Login_Password_Invalid,Chrome 101.0.4951.67,,,2022-05-18 10:58:41,2022-05-18 10:59:12,31.565s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-05-18 10:58:41,2022-05-18 10:58:44,2.403s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/"")",Chrome 101.0.4951.67,,,2022-05-18 10:58:44,2022-05-18 10:59:00,16.235s,PASSED
+maximizeWindow(),Chrome 101.0.4951.67,,,2022-05-18 10:59:00,2022-05-18 10:59:01,1.352s,PASSED
+"click(findTestObject(""Object Repository/bukalapak.com/Menu_Login""))",Chrome 101.0.4951.67,,,2022-05-18 10:59:01,2022-05-18 10:59:07,5.640s,PASSED
+"setText(findTestObject(""Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email""), ""find.project7@gmail.com"")",Chrome 101.0.4951.67,,,2022-05-18 10:59:07,2022-05-18 10:59:08,1.376s,PASSED
+"click(findTestObject(""Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Lanjut""))",Chrome 101.0.4951.67,,,2022-05-18 10:59:08,2022-05-18 10:59:09,0.579s,PASSED
+"click(findTestObject(""Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/div_password""))",Chrome 101.0.4951.67,,,2022-05-18 10:59:09,2022-05-18 10:59:10,0.765s,PASSED
+"setText(findTestObject(""Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Password""), ""1234"")",Chrome 101.0.4951.67,,,2022-05-18 10:59:10,2022-05-18 10:59:10,0.906s,PASSED
+"click(findTestObject(""Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Login""))",Chrome 101.0.4951.67,,,2022-05-18 10:59:11,2022-05-18 10:59:11,0.533s,PASSED
+"verifyElementText(findTestObject(""bukalapak.com/Notifikasi_Login/p_Password yang kamu masukkan salah. Silakan coba lagi""), ""Password yang kamu masukkan salah. Silakan coba lagi."")",Chrome 101.0.4951.67,,,2022-05-18 10:59:11,2022-05-18 10:59:12,0.680s,PASSED
+takeScreenshot(),Chrome 101.0.4951.67,,,2022-05-18 10:59:12,2022-05-18 10:59:12,0.593s,PASSED
+,,,,,,,
+Test Cases/bukalapak.com/Login_Password_NULL,Chrome 101.0.4951.67,,,2022-05-18 10:59:16,2022-05-18 10:59:42,25.194s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-05-18 10:59:16,2022-05-18 10:59:19,2.354s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/"")",Chrome 101.0.4951.67,,,2022-05-18 10:59:19,2022-05-18 10:59:33,14.298s,PASSED
+maximizeWindow(),Chrome 101.0.4951.67,,,2022-05-18 10:59:33,2022-05-18 10:59:34,0.715s,PASSED
+"click(findTestObject(""Object Repository/bukalapak.com/Menu_Login""))",Chrome 101.0.4951.67,,,2022-05-18 10:59:34,2022-05-18 10:59:36,2.604s,PASSED
+"setText(findTestObject(""Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email""), ""find.project7@gmail.com"")",Chrome 101.0.4951.67,,,2022-05-18 10:59:36,2022-05-18 10:59:38,1.871s,PASSED
+"click(findTestObject(""Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Lanjut""))",Chrome 101.0.4951.67,,,2022-05-18 10:59:38,2022-05-18 10:59:39,0.642s,PASSED
+"click(findTestObject(""Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/div_password""))",Chrome 101.0.4951.67,,,2022-05-18 10:59:39,2022-05-18 10:59:40,0.719s,PASSED
+"setText(findTestObject(""Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Password""), """")",Chrome 101.0.4951.67,,,2022-05-18 10:59:40,2022-05-18 10:59:40,0.689s,PASSED
+"click(findTestObject(""Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Login""))",Chrome 101.0.4951.67,,,2022-05-18 10:59:40,2022-05-18 10:59:41,0.406s,PASSED
+"verifyElementText(findTestObject(""bukalapak.com/Notifikasi_Login/p_Password wajib diisi, ya""), ""Password wajib diisi, ya."")",Chrome 101.0.4951.67,,,2022-05-18 10:59:41,2022-05-18 10:59:41,0.499s,PASSED
+takeScreenshot(),Chrome 101.0.4951.67,,,2022-05-18 10:59:41,2022-05-18 10:59:42,0.378s,PASSED

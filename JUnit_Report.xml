@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Test" time="241.413" tests="5" failures="0" errors="0">
+   <testsuite name="Regression Test" tests="5" failures="0" errors="0" time="241.413" skipped="0" timestamp="2022-05-18 10:55:40" hostname="nurdi - DESKTOP-P0SG8KG" id="Test Suites/bukalapak.com/Regression Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nurdi\\Katalon Studio\\automation_testing_bukalapak\\Reports\\20220518_105529\\bukalapak.com\\Regression Test\\20220518_105529"/>
+         <property name="logFiles" value="C:\\Users\\nurdi\\Katalon Studio\\automation_testing_bukalapak\\Reports\\20220518_105529\\bukalapak.com\\Regression Test\\20220518_105529\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\nurdi\\Katalon Studio\\automation_testing_bukalapak\\Reports\\20220518_105529\\bukalapak.com\\Regression Test\\20220518_105529\\1652846179582.png, C:\\Users\\nurdi\\Katalon Studio\\automation_testing_bukalapak\\Reports\\20220518_105529\\bukalapak.com\\Regression Test\\20220518_105529\\1652846205698.png, C:\\Users\\nurdi\\Katalon Studio\\automation_testing_bukalapak\\Reports\\20220518_105529\\bukalapak.com\\Regression Test\\20220518_105529\\1652846292429.png, C:\\Users\\nurdi\\Katalon Studio\\automation_testing_bukalapak\\Reports\\20220518_105529\\bukalapak.com\\Regression Test\\20220518_105529\\1652846321063.png, C:\\Users\\nurdi\\Katalon Studio\\automation_testing_bukalapak\\Reports\\20220518_105529\\bukalapak.com\\Regression Test\\20220518_105529\\1652846352480.png, C:\\Users\\nurdi\\Katalon Studio\\automation_testing_bukalapak\\Reports\\20220518_105529\\bukalapak.com\\Regression Test\\20220518_105529\\1652846356688.png, C:\\Users\\nurdi\\Katalon Studio\\automation_testing_bukalapak\\Reports\\20220518_105529\\bukalapak.com\\Regression Test\\20220518_105529\\1652846381947.png"/>
+         <property name="hostName" value="nurdi - DESKTOP-P0SG8KG"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 101.0.4951.67"/>
+         <property name="hostAddress" value="192.168.0.17"/>
+         <property name="sessionId" value="ef5a4d42c6f50e68d5ecfd8ace73022c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/bukalapak.com/Login_Valid" time="38.988" classname="Test Cases/bukalapak.com/Login_Valid" status="PASSED">
+         <system-out><![CDATA[2022-05-18 10:55:41 - [TEST_CASE][PASSED] - Test Cases/bukalapak.com/Login_Valid: Test Cases/bukalapak.com/Login_Valid
+
+2022-05-18 10:55:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-18 10:55:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-18 10:55:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-18 10:55:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-18 10:55:47 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bukalapak.com/"): Navigate to 'https://www.bukalapak.com/' successfully
+
+2022-05-18 10:56:03 - [MESSAGE][PASSED] - Navigate to 'https://www.bukalapak.com/' successfully
+
+2022-05-18 10:56:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-18 10:56:04 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-18 10:56:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/bukalapak.com/Menu_Login")): Object: 'Object Repository/bukalapak.com/Menu_Login' is clicked on
+
+2022-05-18 10:56:08 - [MESSAGE][PASSED] - Object: 'Object Repository/bukalapak.com/Menu_Login' is clicked on
+
+2022-05-18 10:56:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email"), "find.project7@gmail.com"): Text 'find.project7@gmail.com' is set on object 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email'
+
+2022-05-18 10:56:11 - [MESSAGE][PASSED] - Text 'find.project7@gmail.com' is set on object 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email'
+
+2022-05-18 10:56:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Lanjut")): Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Lanjut' is clicked on
+
+2022-05-18 10:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Lanjut' is clicked on
+
+2022-05-18 10:56:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/div_password")): Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/div_password' is clicked on
+
+2022-05-18 10:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/div_password' is clicked on
+
+2022-05-18 10:56:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Password"), "xvClebNTj3S16cmfaeveIw=="): Text ****** has been set on object 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Password'
+
+2022-05-18 10:56:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Password'
+
+2022-05-18 10:56:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Login")): Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Login' is clicked on
+
+2022-05-18 10:56:14 - [MESSAGE][PASSED] - Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Login' is clicked on
+
+2022-05-18 10:56:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-05-18 10:56:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\nurdi\\Katalon Studio\\automation_testing_bukalapak\\Reports\\20220518_105529\\bukalapak.com\\Regression Test\\20220518_105529\\1652846179582.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/bukalapak.com/Login_Email_Invalid" time="25.567" classname="Test Cases/bukalapak.com/Login_Email_Invalid" status="PASSED">
+         <system-out><![CDATA[2022-05-18 10:56:20 - [TEST_CASE][PASSED] - Test Cases/bukalapak.com/Login_Email_Invalid: Test Cases/bukalapak.com/Login_Email_Invalid
+
+2022-05-18 10:56:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-18 10:56:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-18 10:56:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-18 10:56:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-18 10:56:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-18 10:56:25 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bukalapak.com/"): Navigate to 'https://www.bukalapak.com/' successfully
+
+2022-05-18 10:56:39 - [MESSAGE][PASSED] - Navigate to 'https://www.bukalapak.com/' successfully
+
+2022-05-18 10:56:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-18 10:56:39 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-18 10:56:39 - [TEST_STEP][PASSED] - click(findTestObject("bukalapak.com/Menu_Login")): Object: 'Object Repository/bukalapak.com/Menu_Login' is clicked on
+
+2022-05-18 10:56:42 - [MESSAGE][PASSED] - Object: 'Object Repository/bukalapak.com/Menu_Login' is clicked on
+
+2022-05-18 10:56:42 - [TEST_STEP][PASSED] - setText(findTestObject("bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email"), "email"): Text 'email' is set on object 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email'
+
+2022-05-18 10:56:44 - [MESSAGE][PASSED] - Text 'email' is set on object 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email'
+
+2022-05-18 10:56:44 - [TEST_STEP][PASSED] - click(findTestObject("bukalapak.com/Page_Login ke Akun  Bukalapak/button_Lanjut")): Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/button_Lanjut' is clicked on
+
+2022-05-18 10:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/button_Lanjut' is clicked on
+
+2022-05-18 10:56:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("bukalapak.com/Notifikasi_Login/p_User tidak ditemukan"), "User tidak ditemukan"): Actual text and expected text of test object 'Object Repository/bukalapak.com/Notifikasi_Login/p_User tidak ditemukan' are matched.
+
+2022-05-18 10:56:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/bukalapak.com/Notifikasi_Login/p_User tidak ditemukan' are matched.
+
+2022-05-18 10:56:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-05-18 10:56:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\nurdi\\Katalon Studio\\automation_testing_bukalapak\\Reports\\20220518_105529\\bukalapak.com\\Regression Test\\20220518_105529\\1652846205698.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/bukalapak.com/Login_Email_NULL" time="28.11" classname="Test Cases/bukalapak.com/Login_Email_NULL" status="PASSED">
+         <system-out><![CDATA[2022-05-18 10:58:13 - [TEST_CASE][PASSED] - Test Cases/bukalapak.com/Login_Email_NULL: Test Cases/bukalapak.com/Login_Email_NULL
+
+2022-05-18 10:58:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-18 10:58:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-18 10:58:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-18 10:58:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-18 10:58:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-18 10:58:15 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bukalapak.com/"): Navigate to 'https://www.bukalapak.com/' successfully
+
+2022-05-18 10:58:35 - [MESSAGE][PASSED] - Navigate to 'https://www.bukalapak.com/' successfully
+
+2022-05-18 10:58:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-18 10:58:35 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-18 10:58:35 - [TEST_STEP][PASSED] - click(findTestObject("bukalapak.com/Menu_Login")): Object: 'Object Repository/bukalapak.com/Menu_Login' is clicked on
+
+2022-05-18 10:58:38 - [MESSAGE][PASSED] - Object: 'Object Repository/bukalapak.com/Menu_Login' is clicked on
+
+2022-05-18 10:58:38 - [TEST_STEP][PASSED] - setText(findTestObject("bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email"), ""): Text '' is set on object 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email'
+
+2022-05-18 10:58:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email'
+
+2022-05-18 10:58:39 - [TEST_STEP][PASSED] - click(findTestObject("bukalapak.com/Page_Login ke Akun  Bukalapak/button_Lanjut")): Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/button_Lanjut' is clicked on
+
+2022-05-18 10:58:40 - [MESSAGE][PASSED] - Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/button_Lanjut' is clicked on
+
+2022-05-18 10:58:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("bukalapak.com/Notifikasi_Login/p_Form harus diisi dulu ya"), "Form harus diisi dulu ya"): Actual text and expected text of test object 'Object Repository/bukalapak.com/Notifikasi_Login/p_Form harus diisi dulu ya' are matched.
+
+2022-05-18 10:58:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/bukalapak.com/Notifikasi_Login/p_Form harus diisi dulu ya' are matched.
+
+2022-05-18 10:58:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-05-18 10:58:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\nurdi\\Katalon Studio\\automation_testing_bukalapak\\Reports\\20220518_105529\\bukalapak.com\\Regression Test\\20220518_105529\\1652846321063.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/bukalapak.com/Login_Password_Invalid" time="31.565" classname="Test Cases/bukalapak.com/Login_Password_Invalid" status="PASSED">
+         <system-out><![CDATA[2022-05-18 10:58:41 - [TEST_CASE][PASSED] - Test Cases/bukalapak.com/Login_Password_Invalid: Test Cases/bukalapak.com/Login_Password_Invalid
+
+2022-05-18 10:58:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-18 10:58:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-18 10:58:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-18 10:58:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-18 10:58:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-18 10:58:44 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bukalapak.com/"): Navigate to 'https://www.bukalapak.com/' successfully
+
+2022-05-18 10:59:00 - [MESSAGE][PASSED] - Navigate to 'https://www.bukalapak.com/' successfully
+
+2022-05-18 10:59:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-18 10:59:01 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-18 10:59:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/bukalapak.com/Menu_Login")): Object: 'Object Repository/bukalapak.com/Menu_Login' is clicked on
+
+2022-05-18 10:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/bukalapak.com/Menu_Login' is clicked on
+
+2022-05-18 10:59:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email"), "find.project7@gmail.com"): Text 'find.project7@gmail.com' is set on object 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email'
+
+2022-05-18 10:59:08 - [MESSAGE][PASSED] - Text 'find.project7@gmail.com' is set on object 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email'
+
+2022-05-18 10:59:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Lanjut")): Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Lanjut' is clicked on
+
+2022-05-18 10:59:09 - [MESSAGE][PASSED] - Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Lanjut' is clicked on
+
+2022-05-18 10:59:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/div_password")): Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/div_password' is clicked on
+
+2022-05-18 10:59:10 - [MESSAGE][PASSED] - Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/div_password' is clicked on
+
+2022-05-18 10:59:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Password"), "1234"): Text '1234' is set on object 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Password'
+
+2022-05-18 10:59:10 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Password'
+
+2022-05-18 10:59:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Login")): Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Login' is clicked on
+
+2022-05-18 10:59:11 - [MESSAGE][PASSED] - Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Login' is clicked on
+
+2022-05-18 10:59:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("bukalapak.com/Notifikasi_Login/p_Password yang kamu masukkan salah. Silakan coba lagi"), "Password yang kamu masukkan salah. Silakan coba lagi."): Actual text and expected text of test object 'Object Repository/bukalapak.com/Notifikasi_Login/p_Password yang kamu masukkan salah. Silakan coba lagi' are matched.
+
+2022-05-18 10:59:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/bukalapak.com/Notifikasi_Login/p_Password yang kamu masukkan salah. Silakan coba lagi' are matched.
+
+2022-05-18 10:59:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-05-18 10:59:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\nurdi\\Katalon Studio\\automation_testing_bukalapak\\Reports\\20220518_105529\\bukalapak.com\\Regression Test\\20220518_105529\\1652846352480.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/bukalapak.com/Login_Password_NULL" time="25.194" classname="Test Cases/bukalapak.com/Login_Password_NULL" status="PASSED">
+         <system-out><![CDATA[2022-05-18 10:59:16 - [TEST_CASE][PASSED] - Test Cases/bukalapak.com/Login_Password_NULL: Test Cases/bukalapak.com/Login_Password_NULL
+
+2022-05-18 10:59:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-18 10:59:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-18 10:59:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-18 10:59:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-18 10:59:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-18 10:59:19 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bukalapak.com/"): Navigate to 'https://www.bukalapak.com/' successfully
+
+2022-05-18 10:59:33 - [MESSAGE][PASSED] - Navigate to 'https://www.bukalapak.com/' successfully
+
+2022-05-18 10:59:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-18 10:59:34 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-18 10:59:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/bukalapak.com/Menu_Login")): Object: 'Object Repository/bukalapak.com/Menu_Login' is clicked on
+
+2022-05-18 10:59:36 - [MESSAGE][PASSED] - Object: 'Object Repository/bukalapak.com/Menu_Login' is clicked on
+
+2022-05-18 10:59:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email"), "find.project7@gmail.com"): Text 'find.project7@gmail.com' is set on object 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email'
+
+2022-05-18 10:59:38 - [MESSAGE][PASSED] - Text 'find.project7@gmail.com' is set on object 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email'
+
+2022-05-18 10:59:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Lanjut")): Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Lanjut' is clicked on
+
+2022-05-18 10:59:39 - [MESSAGE][PASSED] - Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Lanjut' is clicked on
+
+2022-05-18 10:59:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/div_password")): Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/div_password' is clicked on
+
+2022-05-18 10:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/div_password' is clicked on
+
+2022-05-18 10:59:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Password"), ""): Text '' is set on object 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Password'
+
+2022-05-18 10:59:40 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Password'
+
+2022-05-18 10:59:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Login")): Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Login' is clicked on
+
+2022-05-18 10:59:41 - [MESSAGE][PASSED] - Object: 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/Button_Login' is clicked on
+
+2022-05-18 10:59:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("bukalapak.com/Notifikasi_Login/p_Password wajib diisi, ya"), "Password wajib diisi, ya."): Actual text and expected text of test object 'Object Repository/bukalapak.com/Notifikasi_Login/p_Password wajib diisi, ya' are matched.
+
+2022-05-18 10:59:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/bukalapak.com/Notifikasi_Login/p_Password wajib diisi, ya' are matched.
+
+2022-05-18 10:59:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-05-18 10:59:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\nurdi\\Katalon Studio\\automation_testing_bukalapak\\Reports\\20220518_105529\\bukalapak.com\\Regression Test\\20220518_105529\\1652846381947.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-18 10:55:40 - [TEST_SUITE][FAILED] - Regression Test: Test Cases/bukalapak.com/Login_Email_NULL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Login_Email_NULL.run(Login_Email_NULL:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652846129648.run(TempTestSuite1652846129648.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-P0SG8KG', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\nurdi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:11634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f8d5662b72cfe7e07db837fcf09cdcd8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-05-18 10:55:40 - [TEST_SUITE][FAILED] - Regression Test: Test Cases/bukalapak.com/Login_Email_NULL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Login_Email_NULL.run(Login_Email_NULL:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652846129648.run(TempTestSuite1652846129648.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=101.0.4951.67)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-P0SG8KG', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\nurdi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:11634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f8d5662b72cfe7e07db837fcf09cdcd8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

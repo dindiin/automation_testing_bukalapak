@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/bukalapak.com/Menu_Login",
+      "brokenLocator": "//div[@id\u003d\u0027vm__white-header-dweb\u0027]/section/header/div[3]/div/div/div[2]/div/a[2]/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Lihat Semua\u0027])[1]/preceding::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220518_105529/bukalapak.com/Regression Test/20220518_105529/Object Repository/bukalapak.com/Menu_Login_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email",
+      "brokenLocator": "//input[@id\u003d\u0027LoginID\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220518_105529/bukalapak.com/Regression Test/20220518_105529/Object Repository/bukalapak.com/Page_Login ke Akun  Bukalapak/input_Nomor handphone atau email_position.png"
+    }
+  ]
+}
