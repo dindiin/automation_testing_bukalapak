@@ -5,7 +5,7 @@ Regression testing dilakukan untuk memastikan produk berfungsi dengan baik setel
 
 url : https://www.bukalapak.com/
 
-Test Case :
+Test Case Login :
 - Email and password valid
 - Email invalid = email
 - Email null
